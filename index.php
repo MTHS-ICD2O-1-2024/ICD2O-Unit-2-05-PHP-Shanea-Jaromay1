@@ -36,7 +36,7 @@
       <form action="answer.php" method="GET">
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hours-worked" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked" />
           <!-- mdl-textfield__label -->
           <label class="mdl-textfield__label" for="hours-worked">
             Hours worked (hours)</label>
@@ -46,7 +46,7 @@
         <br />
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hourly-wage" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="hourly-wage" />
           <!-- mdl-textfield__label -->
           <label class="mdl-textfield__label" for="hourly-wage">Hourly wage ($)</label>
           <!-- class "mdl-textfield__error" -->
